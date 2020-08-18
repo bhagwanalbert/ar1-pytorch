@@ -84,7 +84,7 @@ tot_it_step = 0
 rm = None
 
 # Create the dataset object
-dataset = CORE50(root='/home/admin/ssd_data/core50', scenario="nicv2_391")
+dataset = CORE50(root='/home/abhagwan/datasets/core50', scenario="nicv2_391")
 preproc = preprocess_imgs
 
 # Get the fixed test set

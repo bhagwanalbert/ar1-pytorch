@@ -249,7 +249,7 @@ if __name__ == "__main__":
 
     # Create the dataset object for example with the "NIC_v2 - 79 benchmark"
     # and assuming the core50 location in ~/core50/128x128/
-    dataset = CORE50(root='/home/admin/Ior50N/128', scenario="nicv2_79")
+     dataset = CORE50(root='/home/abhagwan/datasets/core50', scenario="nicv2_79")
 
     # Get the fixed test set
     test_x, test_y = dataset.get_test_set()
@@ -266,4 +266,3 @@ if __name__ == "__main__":
 
         # use the data
         pass
-
