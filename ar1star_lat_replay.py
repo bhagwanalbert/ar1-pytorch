@@ -183,7 +183,7 @@ for i, train_batch in enumerate(dataset):
         print("n2inject", n2inject)
         print("it x ep: ", it_x_ep)
         if rm != None:
-            print("rm sz: ", rm.size())
+            print("rm sz: ", rm[0].size())
 
         for it in range(it_x_ep):
 
