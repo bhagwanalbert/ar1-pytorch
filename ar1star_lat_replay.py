@@ -182,6 +182,7 @@ for i, train_batch in enumerate(dataset):
         print("total sz:", train_x.size(0) + rm_sz)
         print("n2inject", n2inject)
         print("it x ep: ", it_x_ep)
+        print("rm sz: ", rm.size())
 
         for it in range(it_x_ep):
 
